@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Arimo|Open+Sans+Condensed:300" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Lynda's World
+        </title>
+    </head>
+    <body>
+        <div class="name"><center>
+            LPHAM
+        </center></div>
+        <!--<b> bolded </b>
+
+        </p>
+        </p>
+        </p>
+        </p>
+
+        <!-->
+        
+        <div id="navbar">
+                <a href="index.html">Home</a>
+                <a class="active" href="pictures.html">Photo Album</a>
+                <a href="contact.html">Contact</a> 
+        </div>
+
+
+        <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "More"; 
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Less"; 
+                moreText.style.display = "inline";
+            }
+        }
+        </script>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="row"> 
+            <div class="column">
+                <img src="UW.jpg" style="width:80%">    
+            </div>
+            <div class="column">
+                <div class="item"> Spring 2017 <br> I had an interview at UW for a summer program I was hoping to attend - particularly its writing seminar on 
+                    the effects of tragedies on literature. <span id="dots">...</span><span id="more">My brother Tommy was attending UW and we spent time before the interview preparing together. Afterwards,  
+                    I was sure I had bombed it (and I had), but Tommy convinced me to be glad it was over and take advantage of the fact I had actually dressed up 
+                    by having a mini photo shoot around campus. This reminds me that there is always something to look forward to after something goes wrong.</span></p>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>   
+            </div>
+            
+        </div>
+
+        <div class="row"> 
+            <div class="column">
+                    <img src="gradwsibs.jpg" style="width:80%">
+            </div>
+
+            <div class="column">
+                <div class="item"> &emsp; June 2018 <br> My high school graduation was fairly uneventful. We had the 7:00pm graduation and my family thought that if 
+                    they left at 6:30pm, there would still be plenty of seats. <span id="dots">...</span><span id="more">They were wrong. We waved frantically as I walked to my seats and saw them hanging off 
+                    of the stairs, but to make up for it they ambushed me as I snuck out to the bathroom for a "quick" 25 minute photo shoot as everyone trickled out 
+                    to give me a lei and whisper congratulations. These are almost all my siblings, but Tommy is currently studying abroad. </span></p>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> 
+            <div class="column">
+                <img src="caroling.jpg." style="width:80%">
+            </div>
+
+            <div class="column">
+                <div class="item">&emsp; Deecmber 2017 <br> From a young age, I learned the importance of service from my family. We helped with our church's annual 
+                    cleaning events, served meals at the local men's shelter, <span id="dots">...</span><span id="more">brought canned goods for food drives, and attended local park clean-up efforts. This was 
+                    another family service event. Every winter, we participate in caroiing at a rehabilitation center. In this picture Callysta wanted to play one song 
+                    so I was helping her fight her nerves and keep time.  </span></p>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> 
+            <div class="column">
+                <img src="blackpanther.jpg" style="width:80%">
+            </div>
+
+            <div class="column">
+                <div class="item"> &emsp; March 2018 <br> Several months ago, I was able to attend a private screening of Black Panther through Youthforce's partnership 
+                    with PWC, the auditing firm. I am pictured with Rocky, <span id="dots">...</span><span id="more">the other intern I was with at Amazon. We had come straight from work and not only were late, 
+                    but had never met with the other interns so it was somewhat painfully awkward. We had fun and took plenty of pictures, though, and by the end of the 
+                    night had exchanged social media handles with several other interns. It was a good day.  </span></p>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+        </div>
+        <!--PICTURES
+        <div class="row"> 
+            <div class="column">
+                <img src="UW.jpg" style="width:80%">
+                <img src="gradwsibs.jpg" style="width:80%">
+                <img src="caroling.jpg." style="width:80%">
+                <img src="blackpanther.jpg" style="width:80%">
+                
+                
+            
+            </div>
+            <div class="column">
+                <div class="item"> &emsp; Spring 2017 <br> I had an interview at UW for a summer program I was hoping to attend - particularly its writing seminar on 
+                    the effects of tragedies on literature. My brother Tommy was attending UW and we spent time before the interview preparing together. Afterwards,  
+                    I was sure I had bombed it (and I had), but Tommy convinced me to be glad it was over and take advantage of the fact I had actually dressed up 
+                    by having a mini photo shoot around campus. This reminds me that there is always something to look forward to after something goes wrong.
+                </div>
+                <div class="item"> &emsp; June 2018 <br> My high school graduation was fairly uneventful. We had the 7:00pm graduation and my family thought that if 
+                    they left at 6:30pm, there would still be plenty of seats. They were wrong. We waved frantically as I walked to my seats and saw them hanging off 
+                    of the stairs, but to make up for it they ambushed me as I snuck out to the bathroom for a "quick" 25 minute photo shoot as everyone trickled out 
+                    to give me a lei and whisper congratulations. These are almost all my siblings, but Tommy is currently studying abroad.
+                </div>
+                <div class="item"> &emsp; Deecmber 2017 <br> From a young age, I learned the importance of service from my family. We helped with our church's annual 
+                    cleaning events, served meals at the local men's shelter, brought canned goods for food drives, and attended local park clean-up efforts. This was 
+                    another family service event. Every winter, we participate in caroiing at a rehabilitation center. In this picture Callysta wanted to play one song 
+                    so I was helping her fight her nerves and keep time.    
+                </div>
+                <div class="item"> &emsp; March 2018 <br> Several months ago, I was able to attend a private screening of Black Panther through Youthforce's partnership 
+                    with PWC, the auditing firm. I am pictured with Rocky, the other intern I was with at Amazon. We had come straight from work and not only were late, 
+                    but had never met with the other interns so it was somewhat painfully awkward. We had fun and took plenty of pictures, though, and by the end of the 
+                    night had exchanged social media handles with several other interns. It was a good day.
+               </div>
+            </div>
+            
+        </div>-->
+        <!--main content-->
+        <!--where content will be
+        <div class="main_section">
+            This is a picture
+            <a href="contact.html">Contact</a> 
+            <br>
+        </div> -->
+    </body>
+</html>
